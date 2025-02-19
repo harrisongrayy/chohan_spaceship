@@ -27,9 +27,9 @@ public class Driver {
                 int choice = Integer.parseInt(input);
                 Game game;
                 if (choice == 1) {
-                    game = new Spaceship(); // You CAN change this line, if you're not doing Spaceship
+                    game = new Spaceship();
                 } else if (choice == 2) {
-                    game = new ChoHan(); // You CAN change this line, if you're not doing ChoHan
+                    game = new ChoHan();
                 } else {
                     System.out.println("Please only enter 1 or 2.");
                     continue;
